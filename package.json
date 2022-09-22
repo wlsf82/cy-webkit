@@ -1,0 +1,17 @@
+{
+  "name": "cy-webkit",
+  "version": "1.0.0",
+  "description": "TBD.",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "test": "cypress run --browser webkit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.8.0",
+    "playwright-webkit": "^1.26.0"
+  }
+}
